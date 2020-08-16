@@ -1,0 +1,54 @@
+Reactjs(web) & Reactnative(mobile)
+Nodejs as backend for react(also for frontend)
+typescript(ts->>js)
+PWA(https://www.youtube.com/watch?v=0m2TRV9r7t8&list=PLIiQ4B5FSuphk6P-zg_E3W9zL3J22U4dT&index=4)
+1.user friendly(fast,reliable,flying,3g or 4g).
+
+
+2.can be applied to any frontend.
+-single page.
+
+
+3.cache api(each browser has this,u can cache requests & response in browser in this)
+-console(caches.open("test-cache"),caches.open("test-cache").then(cache=>{console .log(cache);});,caches.open("test-cache").then(cache=> {cache.add("https://jsonplaceholder.typicode.com/users/1")});)
+-network
+-application(cache storage,sw)
+4.serviceworker(proxy btw website and network).
+-decide what to serve from network or when something fails.
+-website-->sw-->network.
+
+
+5.npm init -y
+-sudo npm install workbox-cli --save-dev
+-npx workbox --version
+-npx workbox wizard
+-npx workbox generateSW workbox-config.js
+-npm run build
+-workbox(auto design sw)
+-networkFirst(before cache sw goes to this)
+
+
+
+6.npm install webpack webpack-cli --save-dev
+-npm install copy-webpack-plugin --save-dev
+-npm install workbox-webpack-plugin --save-dev
+-webpack(bundles js files)
+
+7.Web app
+-A typical manifest file includes the app name, the icons the app should use, and the URL that should be opened when the app is launched.
+-manifest.json
+-surge
+-responsivemobile view
+-lighthouse
+-favicon generator
+
+
+
+
+
+
+
+
+
+
+
